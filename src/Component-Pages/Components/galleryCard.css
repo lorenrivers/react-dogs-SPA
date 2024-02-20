@@ -1,0 +1,26 @@
+img {
+  height: 250px;
+  border-radius: 5px;
+}
+
+.dog-container {
+  padding: 20px;
+  flex-basis: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.shrink {
+  transition: 1s ease;
+}
+
+.shrink:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
